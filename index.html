@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>その色には、理由がある。</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ヘッダー -->
+    <header>
+        <h1 class="logo">色のなぜ図鑑</h1>
+
+        <nav>
+            <a href="#home">ホーム</a>
+            <a href="#about">このサイトについて</a>
+            <a href="#category">カテゴリー</a>
+            <a href="#cases">事例一覧</a>
+            <a href="#references">参考文献</a>
+        </nav>
+    </header>
+
+
+    <!-- メインビジュアル -->
+    <main>
+
+        <section class="hero" id="home">
+            <div class="hero-text">
+                <p class="sub-title">COLOR DESIGN RESEARCH</p>
+
+                <h2>
+                    身近なものの<br>
+                    <span>色に、理由がある。</span>
+                </h2>
+
+                <p>
+                    私たちの身の回りにあるさまざまな色。<br>
+                    その色は、なぜ選ばれているのでしょうか？<br>
+                    日常に隠れた色の意味としくみを紹介します。
+                </p>
+
+                <a href="#about" class="button">このサイトについて →</a>
+            </div>
+
+            <div class="hero-image">
+                <div class="color-circle red"></div>
+                <div class="color-circle yellow"></div>
+                <div class="color-circle green"></div>
+                <p>日常に隠れた色の理由を探す</p>
+            </div>
+        </section>
+
+
+        <!-- サイトについて -->
+        <section class="about section" id="about">
+
+            <p class="section-label">ABOUT</p>
+            <h2>色には、意味がある。</h2>
+
+            <p class="about-text">
+                点字ブロックの黄色や、消火器の赤色など、
+                日常には特定の色が使われているものが数多く存在します。
+                その背景には、安全性や視認性、情報伝達、文化や習慣など、
+                さまざまな理由があります。
+                このサイトでは、身近な色に注目し、
+                その色が選ばれた理由や役割を紹介します。
+            </p>
+
+        </section>
+
+
+        <!-- カテゴリー -->
+        <section class="section" id="category">
+
+            <p class="section-label">CATEGORY</p>
+            <h2>色の理由から探す</h2>
+
+            <div class="category-list">
+
+                <a href="#safety" class="category-card category-red">
+                    <span class="category-number">01</span>
+                    <span class="category-icon">!</span>
+                    <h3>安全を守る色</h3>
+                    <p>危険や注意を知らせる色</p>
+                </a>
+
+                <a href="#information" class="category-card category-blue">
+                    <span class="category-number">02</span>
+                    <span class="category-icon">i</span>
+                    <h3>情報を伝える色</h3>
+                    <p>情報や状態を区別する色</p>
+                </a>
+
+                <a href="#function" class="category-card category-green">
+                    <span class="category-number">03</span>
+                    <span class="category-icon">＋</span>
+                    <h3>機能によって決まる色</h3>
+                    <p>用途や機能に関係する色</p>
+                </a>
+
+                <a href="#culture" class="category-card category-purple">
+                    <span class="category-number">04</span>
+                    <span class="category-icon">文</span>
+                    <h3>文化や習慣によって決まる色</h3>
+                    <p>歴史や慣習に関係する色</p>
+                </a>
+
+                <a href="#impression" class="category-card category-orange">
+                    <span class="category-number">05</span>
+                    <span class="category-icon">★</span>
+                    <h3>色が印象をつくるもの</h3>
+                    <p>商品のイメージをつくる色</p>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- 事例一覧 -->
+        <section class="section cases" id="cases">
+
+            <p class="section-label">EXAMPLES</p>
+            <h2>身近な色の事例</h2>
+
+            <p class="section-description">
+                普段見かけるあの色には、どんな理由があるのでしょうか。
+            </p>
+
+
+            <!-- 安全を守る色 -->
+            <div class="case-category" id="safety">
+                <h3><span class="dot red-dot"></span>安全を守る色</h3>
+
+                <div class="case-list">
+
+                    <article class="case-card">
+                        <div class="case-image tactile">黄色</div>
+                        <div class="case-info">
+                            <p class="case-tag">安全・視認性</p>
+                            <h4>点字ブロック</h4>
+                            <p>なぜ黄色が使われているのか？</p>
+                            <a href="#references">詳しく調べる →</a>
+                        </div>
+                    </article>
+
+                    <article class="case-card">
+                        <div class="case-image extinguisher">赤色</div>
+                        <div class="case-info">
+                            <p class="case-tag">安全・注意喚起</p>
+                            <h4>消火器</h4>
+                            <p>なぜ赤色が使われているのか？</p>
+                            <a href="#references">詳しく調べる →</a>
+                        </div>
+                    </article>
+
+                    <article class="case-card">
+                        <div class="case-image exit">緑色</div>
+                        <div class="case-info">
+                            <p class="case-tag">安全・誘導</p>
+                            <h4>非常口</h4>
+                            <p>なぜ緑色が使われているのか？</p>
+                            <a href="#references">詳しく調べる →</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+
+            <!-- 情報を伝える色 -->
+            <div class="case-category" id="information">
+                <h3><span class="dot blue-dot"></span>情報を伝える色</h3>
+
+                <div class="case-list">
+
+                    <article class="case-card">
+                        <div class="case-image traffic">
+                            <span class="traffic-light green-light"></span>
+                            <span class="traffic-light yellow-light"></span>
+                            <span class="traffic-light red-light"></span>
+                        </div>
+                        <div class="case-info">
+                            <p class="case-tag">行動・判断</p>
+                            <h4>信号機</h4>
+                            <p>色が人の行動を伝えるしくみ。</p>
+                            <a href="#references">詳しく調べる →</a>
+                        </div>
+                    </article>
+
+                    <article class="case-card">
+                        <div class="case-image water">
+                            <span>青</span>
+                            <span>赤</span>
+                        </div>
+                        <div class="case-info">
+                            <p class="case-tag">状態の区別</p>
+                            <h4>水道の温度表示</h4>
+                            <p>色で水の温度を区別する。</p>
+                            <a href="#references">詳しく調べる →</a>
+                        </div>
+                    </article>
+
+                    <article class="case-card">
+                        <div class="case-image railway">
+                            <span>●</span>
+                            <span>●</span>
+                            <span>●</span>
+                        </div>
+                        <div class="case-info">
+                            <p class="case-tag">情報の整理</p>
+                            <h4>鉄道の路線カラー</h4>
+                            <p>色で路線を見分けやすくする。</p>
+                            <a href="#references">詳しく調べる →</a>
+                        </div>
+                    </article>
+
+                    <article class="case-card">
+                        <div class="case-image priority">優先席</div>
+                        <div class="case-info">
+                            <p class="case-tag">意味の伝達</p>
+                            <h4>優先席の表示</h4>
+                            <p>表示の色や記号で意味を伝える。</p>
+                            <a href="#references">詳しく調べる →</a>
+                        </div>
+                    </article>
+
+                    <article class="case-card">
+                        <div class="case-image lamp">
+                            <span class="lamp-green"></span>
+                            <span class="lamp-yellow"></span>
+                            <span class="lamp-red"></span>
+                        </div>
+                        <div class="case-info">
+                            <p class="case-tag">状態の通知</p>
+                            <h4>電子機器のランプ</h4>
+                            <p>色で機器の状態を知らせる。</p>
+                            <a href="#references">詳しく調べる →</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+
+            <!-- 機能によって決まる色 -->
+            <div class="case-category" id="function">
+                <h3><span class="dot green-dot"></span>機能によって決まる色</h3>
+
+                <div class="case-list">
+
+                    <article class="case-card">
+                        <div class="case-image tire">黒色</div>
+                        <div class="case-info">
+                            <p class="case-tag">素材・機能</p>
+                            <h4>タイヤ</h4>
+                            <p>なぜ黒色が一般的なのか？</p>
+                            <a href="#references">詳しく調べる →</a>
+                        </div>
+                    </article>
+
+                    <article class="case-card">
+                        <div class="case-image board">緑色</div>
+                        <div class="case-info">
+                            <p class="case-tag">製造・機能</p>
+                            <h4>電子基板</h4>
+                            <p>緑色の基板が多い理由とは？</p>
+                            <a href="#references">詳しく調べる →</a>
+                        </div>
+                    </article>
+
+                    <article class="case-card">
+                        <div class="case-image uniform">青・緑</div>
+                        <div class="case-info">
+                            <p class="case-tag">作業環境</p>
+                            <h4>手術着</h4>
+                            <p>医療現場で使われる色の役割。</p>
+                            <a href="#references">詳しく調べる →</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+
+            <!-- 文化や習慣によって決まる色 -->
+            <div class="case-category" id="culture">
+                <h3><span class="dot purple-dot"></span>文化や習慣によって決まる色</h3>
+
+                <div class="case-list">
+
+                    <article class="case-card">
+                        <div class="case-image post">赤色</div>
+                        <div class="case-info">
+                            <p class="case-tag">社会・習慣</p>
+                            <h4>郵便ポスト</h4>
+                            <p>なぜ赤色が使われているのか？</p>
+                            <a href="#references">詳しく調べる →</a>
+                        </div>
+                    </article>
+
+                    <article class="case-card">
+                        <div class="case-image torii">朱色</div>
+                        <div class="case-info">
+                            <p class="case-tag">歴史・文化</p>
+                            <h4>鳥居</h4>
+                            <p>朱色が使われる背景とは？</p>
+                            <a href="#references">詳しく調べる →</a>
+                        </div>
+                    </article>
+
+                    <article class="case-card">
+                        <div class="case-image mizuhiki">紅白</div>
+                        <div class="case-info">
+                            <p class="case-tag">伝統・慣習</p>
+                            <h4>紅白の水引</h4>
+                            <p>紅白が持つ意味を探る。</p>
+                            <a href="#references">詳しく調べる →</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+
+            <!-- 色が印象をつくるもの -->
+            <div class="case-category" id="impression">
+                <h3><span class="dot orange-dot"></span>色が印象をつくるもの</h3>
+
+                <div class="case-list">
+
+                    <article class="case-card">
+                        <div class="case-image milk">白色</div>
+                        <div class="case-info">
+                            <p class="case-tag">商品デザイン</p>
+                            <h4>牛乳パック</h4>
+                            <p>白色から受ける印象とは？</p>
+                            <a href="#references">詳しく調べる →</a>
+                        </div>
+                    </article>
+
+                    <article class="case-card">
+                        <div class="case-image tea">緑色</div>
+                        <div class="case-info">
+                            <p class="case-tag">商品イメージ</p>
+                            <h4>緑茶のパッケージ</h4>
+                            <p>緑色と商品のイメージの関係。</p>
+                            <a href="#references">詳しく調べる →</a>
+                        </div>
+                    </article>
+
+                    <article class="case-card">
+                        <div class="case-image coffee">茶色</div>
+                        <div class="case-info">
+                            <p class="case-tag">商品イメージ</p>
+                            <h4>コーヒーのパッケージ</h4>
+                            <p>色が商品の印象に与える影響。</p>
+                            <a href="#references">詳しく調べる →</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- まとめ -->
+        <section class="summary section" id="summary">
+            <p class="section-label">SUMMARY</p>
+            <h2>色の理由を考える。</h2>
+
+            <p>
+                色は見た目を整えるだけのものではありません。
+                安全を守り、情報を伝え、文化を表現し、
+                商品の印象をつくる役割があります。
+                身近な色に目を向けることで、
+                普段は気づかないデザインの工夫を発見できます。
+            </p>
+        </section>
+
+
+        <!-- 参考文献 -->
+        <section class="references section" id="references">
+            <p class="section-label">REFERENCES</p>
+            <h2>参考文献・調査資料</h2>
+
+            <div class="reference-box">
+                <p>・安全色に関する公的資料</p>
+                <p>・公共サインや視認性に関する研究</p>
+                <p>・色彩と視覚表示に関する学術論文</p>
+                <p>・各事例の製品情報や公式資料</p>
+            </div>
+
+            <p class="reference-note">
+                ※ 実際に調査・確認した資料を、出典や閲覧日とともに掲載します。
+            </p>
+        </section>
+
+    </main>
+
+
+    <!-- フッター -->
+    <footer>
+        <p class="footer-logo">色のなぜ図鑑</p>
+        <p>その色には、理由がある。</p>
+        <small>© 2026 COLOR DESIGN RESEARCH</small>
+    </footer>
+
+</body>
+</html>
